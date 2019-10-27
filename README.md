@@ -8,7 +8,7 @@ This is a small and powerful app, that will guide you through dark waters of com
 2. Build a simple and concise app with responsive design.
 3. Work with external API.
 
-![Cookie Rama GIF](Cookie_Rama.gif width=100)
+![Cookie Rama GIF](Cookie_Rama_2.gif)
 
 ### `Tech stack`
 
