@@ -4,10 +4,11 @@ This is a small and powerful app, that will guide you through dark waters of com
 
 ### `Goals of this project`
 
-1. Master DOM manipulation and be proficient with Node.js.
+1. Master DOM manipulation and Master Rails.
 2. Build a simple and concise app with responsive design.
-3. Work external API.
-4. Master Rails.
+3. Work with external API.
+
+![Cookie Rama GIF](Cookie_Rama.gif)
 
 ### `Tech stack`
 
@@ -22,6 +23,9 @@ This is a small and powerful app, that will guide you through dark waters of com
 2. Rails part built on top of PostgreSQL.
 
 ### ` What you can do with Cookie Rama app?`
+
+![Cookie Rama Greeting](Cookie_Rama_Greeting.gif)
+![Cookie Rama Quotes](Cookie_Rama_Quotes.gif)
 
 1. Register as a new user. 
 2. Existing users log-in only with a username. 
