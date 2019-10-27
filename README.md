@@ -1,6 +1,6 @@
 ## Cookie Rama `Updated 10.25.2019`
 
-This is a small and powerful app, that will guide you through dark waters of complicated decisions. Just with one tuch you can ask an advice and recive a message from fortune cookie teller. Short but inspirational quote will make your day.      
+This is a small and powerful app, that will guide you through dark waters of complicated decisions. Just with one touch you can ask an advice and recive a message from fortune cookie teller. Short but inspirational quote will make your day.      
 
 ### `Goals of this project`
 
