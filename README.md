@@ -8,7 +8,7 @@ This is a small and powerful app, that will guide you through dark waters of com
 2. Build a simple and concise app with responsive design.
 3. Work with external API.
 
-![Cookie Rama GIF](Cookie_Rama.gif)
+![Cookie Rama GIF](Cookie_Rama.gif =250x250)
 
 ### `Tech stack`
 
@@ -24,8 +24,8 @@ This is a small and powerful app, that will guide you through dark waters of com
 
 ### ` What you can do with Cookie Rama app?`
 
-![Cookie Rama Greeting](Cookie_Rama_Greeting.gif)
-![Cookie Rama Quotes](Cookie_Rama_Quotes.gif)
+![Cookie Rama Greeting](Cookie_Rama_Greeting.png)
+![Cookie Rama Quotes](Cookie_Rama_Quotes.png)
 
 1. Register as a new user. 
 2. Existing users log-in only with a username. 
