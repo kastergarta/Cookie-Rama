@@ -6,21 +6,18 @@ This is a small and powerful app, that will guide you through dark waters of com
 
 1. Master DOM manipulation and Master Rails.
 2. Build a simple and concise app with responsive design.
-3. Work with external API.
+3. Work with external [API](https://fortunecookie.docs.apiary.io/#introduction/authentication).
 
 ![Cookie Rama GIF](Cookie_Rama_2.gif)
 
 ### `Tech stack`
 
-1. Front-end is build with React. First back-end is build with Rails (auth, users, content), second back-end is build with Express (donate).
-2. React components styled with a [Material-UI](https://material-ui.com).
-3. [EmailJS](https://www.emailjs.com/) for sending greeting mail to every new user.
-4. With [Stripe](https://stripe.com/) visitors of the page can donate.
+1. Back-end built with Rails.
 
 ### `Run this App`
 
 1. Rails part should run on http://localhost:3003 (for custom port use this -> "bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3003")
-2. Rails part built on top of PostgreSQL.
+2. To run a Front-end part -> just open index.html from this repo in browser.
 
 ### ` What you can do with Cookie Rama app?`
 
@@ -29,7 +26,7 @@ This is a small and powerful app, that will guide you through dark waters of com
 
 1. Register as a new user. 
 2. Existing users log-in only with a username. 
-3. Every user can ask for new fortune cookie quote, save it to favourites, update list of favourites quotes, like any number times any number of cookies. 
+3. Every user can ask for new fortune cookie quote, save it to favourites, update list of favourites quotes, like any number times any number of quotes. 
 
 ### `Thanks`
 
