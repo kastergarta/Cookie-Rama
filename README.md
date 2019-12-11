@@ -1,4 +1,4 @@
-## Cookie Rama `Updated 12.8.2019` [VIDEO](https://youtu.be/Y5inw4O9CwE)
+## Cookie Rama `Updated 12.10.2019` [VIDEO](https://youtu.be/Y5inw4O9CwE)
 
 This is a small and powerful app, that will guide you through dark waters of complicated decisions. Just with one touch you can ask a bit of advice and receive a message from a fortune cookie teller. A short but inspirational quote will make your day.      
 
