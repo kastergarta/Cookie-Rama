@@ -5,7 +5,7 @@ document.addEventListener(`DOMContentLoaded`, function(){
 
 // ************ FETCH USER ***********************************************************************
 function fetchUser (){
-   fetch("http://localhost:3003/users")
+   fetch("http://localhost:3007/users")
   .then(response => response.json())
   .then(function(data){
     data.forEach(user => {
@@ -40,7 +40,7 @@ function newUser(){
 console.log(111)
   let name = document.querySelector(".form-name").value
   console.log("newUser ✅");
-  fetch(`http://localhost:3003/users`, {
+  fetch(`http://localhost:3007/users`, {
     method: 'POST',
     headers: {
       "Content-Type": "application/json",
@@ -87,7 +87,7 @@ userDiv.addEventListener("click" , function(){
 
 function deleteUser(userId){
 
-  fetch(`http://localhost:3003/users/${userId}`,{
+  fetch(`http://localhost:3007/users/${userId}`,{
     method: "DELETE",
   })
   .then(res => res.json())
@@ -111,7 +111,7 @@ function saveThisAdvice (event) {
   event.preventDefault()
   if (event.target.classList.contains("save-btn")) {
 
-  fetch(`http://localhost:3003/advices`,{
+  fetch(`http://localhost:3007/advices`,{
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ content: pTag.innerHTML, user_id: saveBtn.id}) //<-------------------------------
@@ -123,7 +123,7 @@ function saveThisAdvice (event) {
 
 function fetchUserAdvices(){
 console.log("fetchUserAdvices ✅")
-fetch(`http://localhost:3003/users/${saveBtn.id}`)
+fetch(`http://localhost:3007/users/${saveBtn.id}`)
 .then(response => response.json())
 .then(renderUserAdvices)
 }
@@ -162,10 +162,10 @@ function deleteOrLikeAdvice (event) {
 
   if (event.target.innerText == "♻️") {
     event.target.parentElement.remove()
-    fetch(`http://localhost:3003/advices/${splitAdviceId}`,{ method: "DELETE"})
+    fetch(`http://localhost:3007/advices/${splitAdviceId}`,{ method: "DELETE"})
   } else {
 
-    fetch(`http://localhost:3003/advices/${splitAdviceId}`, {
+    fetch(`http://localhost:3007/advices/${splitAdviceId}`, {
         method: "PATCH",
         headers: { "Accept": "application/json", "Content-Type": "application/json" },
         body: JSON.stringify({
